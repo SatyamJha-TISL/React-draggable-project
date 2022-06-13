@@ -1,0 +1,37 @@
+
+@import "./stylesFile/header" ;
+@import "./stylesFile/footer" ;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+ 
+}
+
+.mid-portion {
+  height: 400px;
+  background-color: yellow ;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-right {
+  bottom: 0;
+  right:0 ;
+  z-index: 1;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: red ;
+  cursor: "move"
+}
